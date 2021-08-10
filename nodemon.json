@@ -1,0 +1,7 @@
+{
+    "env": {
+        "DB_URI": "",
+        "JWT_KEY": ""
+    },
+    "watch": ["build/app.bundle.js"]
+}

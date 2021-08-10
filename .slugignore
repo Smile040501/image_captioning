@@ -1,0 +1,20 @@
+# Heroku specific
+
+/Python/Dataset
+/Python/Models/language_model_0
+/Python/Models/language_model_1
+/Python/Models/resnet_model
+/Python/Models/language_model.png
+/Python/Notebooks
+/Python/TestingImages
+/Python/Variables/embedding_dim.pickle
+/Python/Variables/embeddings_matrix.pickle
+/Python/Variables/encoded_test_images_resnet.pickle
+/Python/Variables/encoded_train_images_resnet.pickle
+/Python/Variables/img_cpt_dict.pickle
+/Python/Variables/most_probable_vocabulary.pickle
+/Python/Variables/test_dataset.pickle
+/Python/Variables/train_dataset.pickle
+/Python/Variables/vocab.pickle
+/Python/Variables/vocabulary_size.pickle
+/Python/Final\ Presentation.pdf
