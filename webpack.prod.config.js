@@ -22,7 +22,7 @@ module.exports = {
                     parse: { ecma: 8 },
                     compress: {
                         comparisons: false,
-                        drop_console: true,
+                        // drop_console: true,
                         ecma: 5,
                     },
                     mangle: { safari10: true },
