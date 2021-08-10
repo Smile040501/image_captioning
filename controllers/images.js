@@ -26,16 +26,10 @@ const generateImagePrediction = async (req, res, next) => {
 
     pythonProcess.stdout.on("data", (data) => {
         prediction = data.toString();
-        console.log(data);
     });
 
     pythonProcess.stderr.on("data", (data) => {
         prediction = data.toString();
-        console.log(data);
-    });
-
-    pythonProcess.on("error", (err) => {
-        console.log(err);
     });
 
     pythonProcess.on("close", (code) => {
